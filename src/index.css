@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+@theme {
+    --color-dark-green: #006241;
+    --color-green: #00704A;
+    --color-light-green: #5B9A85;
+}
+
+@layer utilities {
+  @keyframes go-down {
+    0%{
+      transform: translateY(-150%);
+      opacity: 0;
+    }
+    100%{
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes go-up {
+    0%{
+      transform: translateY(150%) translateX(100px) scale(.3);
+      filter: blur(50px);
+    }
+    100%{
+      transform: translateY(0) translateX(0) scale(1);
+      filter: blur(0);
+    }
+  }
+  @keyframes go-left {
+    0%{
+      transform: translateX(150%);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
+  @keyframes go-right {
+    0%{
+      transform: translateX(-150%);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
+  @keyframes go-scale {
+    0%{
+      transform: scale(0);
+      opacity: 0;
+    }
+    100%{
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  .animate-go-down{
+    animation: go-down 1s linear 1 forwards;
+  }
+  .animate-go-up{
+    animation: go-up 1.25s ease-out 1 forwards;
+  }
+  .animate-go-left{
+    animation: go-left 1s linear 1 forwards;
+  }
+  .animate-go-right{
+    animation: go-right 1s linear 1 forwards;
+  }
+  .animate-go-scale{
+    animation: go-scale 1.5s ease-out 1 forwards;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @font-face {
+    font-family: 'opensans-regular';
+    src: url('../public/Fonts/OpenSans-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'satoshi-regular';
+    src: url('../src/assets/Fonts/Satoshi-Regular.otf') format('otf');
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'satoshi-bold';
+    src: url('../public/Fonts/Satoshi-Bold.otf') format('otf');
+    font-style: normal;
+    font-weight: 700;
+  }
+
+@font-face {
+    font-family: 'satoshi-medium';
+    src: url('../src/assets/Fonts/Satoshi-me.otf') format('otf');
+    font-style: normal;
+  }
+
+  .test-font {
+    font-family: 'opensans';
+    font-size: 24px;
+  } */
+  
