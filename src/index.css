@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
 @theme {
+    --breakpoint-sm: 640px;     /*phone*/
+    --breakpoint-md: 768px;     /*tablet*/
+    --breakpoint-lg: 1024px;    /*laptop*/
+    --breakpoint-xl: 1280px;    /*pc*/
+    --breakpoint-2xl: 1536px;   /*large pc*/
     --color-dark-green: #006241;
     --color-green: #00704A;
     --color-light-green: #5B9A85;
