@@ -75,6 +75,10 @@
   }
 }
 
+.overview-section{
+  background: linear-gradient(150deg, var(--color-green) 0%, var(--color-light-green) 100%);
+}
+
 
 
 
