@@ -17,15 +17,16 @@ const NavBar = () => {
         className="size-16 md:size-18 select-none"
       />
 
-        <div className={`menu-open bg-dark-green fixed -top-2 -right-2 p-4 pt-24 h-screen w-4/5 border-l border-l-white/50 ${isMenuOpened ? 'flex' : 'hidden'}`}>
-          <ul className="text-xl w-full text-center flex flex-col gap-4">
+        <div className={`menu-open bg-dark-green flex md:hidden flex-col items-center fixed -top-4 -right-2 p-4 pt-24 h-[110dvh] w-4/5 border-l border-l-white/50 transition-all duration-300 ${isMenuOpened ? 'translate-x-0 ' : 'translate-x-full'}`}>
+          <ul className="text-xl w-full text-center flex flex-col gap-2">
             {listItems.map((item, index) => (
               <>
-                <li key={index}><a href={`#${item}`}>{item}</a></li>
-                <hr classname={` ${index === 1 ? 'hidden' : 'flex'}`}/>
+                <li className="active:bg-dark-green brightness-110 rounded-lg py-2" key={index}><a href={`#${item.toLowerCase()}`}>{item}</a></li>
+                {console.log(index)}
               </>
             ))}
           </ul>
+        <button className="relative  bg-dark-green brightness-110 scale-110 mt-16 px-4 py-2 rounded-lg font-medium active:brightness-90 transition-all duration-150">Order Now</button>
         </div>
 
       <ul className="hidden md:flex items-center gap-8 font-[400] text-[1rem] z-50">

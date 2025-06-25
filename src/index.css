@@ -78,6 +78,9 @@
 .overview-section{
   background: linear-gradient(150deg, var(--color-green) 0%, var(--color-light-green) 100%);
 }
+.menu-open{
+  /* box-shadow: -32px 0 30px 30px rgba(0, 0, 0, 0.5); */
+}
 
 
 
