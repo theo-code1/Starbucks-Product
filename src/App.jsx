@@ -3,7 +3,7 @@ import NavBar from "./Components/NavBar";
 
 const App = () => { 
   return (
-    <section className="max-w-screen h-auto relative">
+    <section className="max-w-screen h-auto relative selection:bg-green-950">
       <NavBar />
       <Dashboard />
     </section>
