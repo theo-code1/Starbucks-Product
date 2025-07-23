@@ -2,7 +2,7 @@
 
 This project is a **responsive and visually-rich hero section** for a Starbucks-inspired landing page. It replicates a product-centric UI using React components and Tailwind CSS utilities.
 
-🌐 **Live Site**: [https://starbucks-product.vercel.app](https://starbucks-product.vercel.app/)]
+🌐 **Live Site**: [[https://starbucks-product.vercel.app](https://starbucks-product.vercel.app/)]
 
 ---
 
