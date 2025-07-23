@@ -1,4 +1,4 @@
-import StarCoffee from '../Assets/starbucks-ice-coffee.webp';
+import StarCoffee from '../Assets/starbucks-coffee.webp';
 import BgText from '../assets/bg-text2.svg';
 
 
