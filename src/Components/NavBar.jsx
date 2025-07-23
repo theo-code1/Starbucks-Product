@@ -1,5 +1,5 @@
 import { useState } from "react";
-import StarbucksLogo from "../Assets/Starbucks-logo.webp";
+import StarbucksLogo from "../assets/Starbucks-logo.webp";
 import MenuIcon from '../assets/Menu.svg'
 
 const NavBar = () => {
