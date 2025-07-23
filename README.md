@@ -1,12 +1,51 @@
-# React + Vite
+# ☕ Starbucks Hero Section – React + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **responsive and visually-rich hero section** for a Starbucks-inspired landing page. It replicates a product-centric UI using React components and Tailwind CSS utilities.
 
-Currently, two official plugins are available:
+🌐 **Live Site**: [https://starbucks-product.vercel.app](https://starbucks-product.vercel.app/)]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Key Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🍫 **Product Highlight:** Hero Frappuccino image with chocolate syrup and whipped cream
+- 🔠 **Layered Typography:** Repeating "Starbucks" text in background for visual depth
+- 🧭 **Navigation Bar:** Simple and clean top nav (Overview, Coffee, Customization, Seasonal)
+- 🛒 **Call to Action:** “Order Now” button with hover effect
+- 💬 **Brand Description:** Left-right layout with rich product and company descriptions
+- 💻 **Responsive Design:** Looks great on all devices (mobile, tablet, desktop)
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech         | Description                        |
+|--------------|------------------------------------|
+| **React**    | Component-based UI development     |
+| **Tailwind** | Utility-first CSS for layout & styling |
+| **Vite**     | Fast development environment        |
+
+---
+
+
+
+---
+
+## ▶️ Getting Started
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/yourusername/starbucks-hero.git
+
+# 2. Navigate into the project
+cd starbucks-hero
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
+
+
+🧑‍💻 Author
+Theokode – @theokode
