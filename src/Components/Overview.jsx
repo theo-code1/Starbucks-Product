@@ -6,7 +6,7 @@ const Dashboard = () => {
     return (
         <section className="overview-section h-[110dvh] md:h-[100dvh] lg:h-screen pt-4 bg-gradient-to-r from-green to-light-green relative overflow-hidden ">
             <div className="Product">
-                <img src={StarCoffee} alt="Ice Coffee" draggable={false} className='animate-go-up size-[110dvw] lg:size-[45rem] md:size-[85vw] absolute left-1/2 top-1/2 -translate-y-2/3 -translate-x-1/2 md:-translate-y-3/5 lg:-translate-1/2 rotate-15 z-20 select-none' />
+                <img src={StarCoffee} alt="Ice Coffee" draggable={false} className='animate-go-up size-[110dvw] lg:size-[45rem] md:size-[85vw] absolute left-1/2 top-1/2 -translate-y-2/3 -translate-x-1/2 md:-translate-y-3/5 lg:-translate-1/2 xl:-translate-x-2/3 xl:-translate-y-2/3 rotate-15 z-20 select-none' />
                 <img src={BgText} alt="Background Text" draggable={false} className="animate-go-scale size-[90dvw] lg:size-[42rem] md:size-[70dvw] absolute top-1/2 left-1/2 -translate-y-2/3 -translate-x-1/2 md:-translate-y-3/5  lg:-translate-1/2 z-0 select-none" />
 
             </div>
