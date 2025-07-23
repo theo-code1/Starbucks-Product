@@ -1,4 +1,4 @@
-import StarCoffee from '../Assets/starbucks-coffee.webp';
+import StarCoffee from '../assets/starbucks-coffee.webp';
 import BgText from '../assets/bg-text2.svg';
 
 
@@ -15,7 +15,7 @@ const Dashboard = () => {
                 <p className='text-sm font-light leading-[28px]'>A rich, creamy blend of Starbucks® coffee, milk, and ice with mocha sauce, all topped with whipped cream and drizzled with chocolate syrup</p>
             </div>
             <div className="right-b-text hidden md:flex md:w-2/5 lg:w-3/10 absolute bottom-0 md:bottom-4 lg:bottom-8 lg:flex right-6 text-white animate-go-left">
-                <p className='text-lg font-light leading-[29px text-right'>globally recognized coffeehouse chain founded in 1971 in Seattle, Washington. Known for its premium coffee. offers a wide range of drinks and snacks, emphasizing quality, sustainability, and community connection.</p>
+                <p className='text-lg font-light leading-[29px] text-right'>globally recognized coffeehouse chain founded in 1971 in Seattle, Washington. Known for its premium coffee. offers a wide range of drinks and snacks, emphasizing quality, sustainability, and community connection.</p>
             </div>
         </section>
     );
